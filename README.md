@@ -1,13 +1,10 @@
-# Recurrent Neural Network(LSTM)  with Keras Framework
-In this project using recurrent neural network,Google opening stock price for month January(2017) is predicted.
-Last 5 year's data of Google stock price is used for analysis.
+# Predicting Google Stock Prices Using LSTM and Keras
+In this project, a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) units was used to predict the opening price of Google stock for January 2017. The model was trained on the historical stock data from the past five years to identify patterns and trends that could inform accurate predictions.
 
-## About RNN
-Classic RNNs have short memory, and were neither popular nor powerful for this exact reason. But a recent major improvement in Recurrent Neural Networks gave rise to the popularity of LSTMs (Long Short Term Memory RNNs) which has completely changed the playing field.
+About RNN and LSTM
+Traditional RNNs are limited by their short-term memory, which makes them less effective at learning long-term dependencies in sequential data. The development of LSTM networks addressed this limitation by incorporating memory cells that can retain information over extended sequences, making them far more powerful and popular for time series prediction tasks such as stock price forecasting.
 
+Project Outcome
+Using the LSTM model built with the Keras framework, the project successfully predicted Google’s stock price trends, demonstrating the effectiveness of deep learning approaches for financial data analysis.
 
-Predicted stock price for Google's trending Stock data
-1. Successfully predicted Google stock price by using last 5 year's data of Google stock price.
-2. Use of RNN(LSTM) was implemented alongside with Keras framework producing some good results.
-
-Technology Used: Deep Learning , RNN , Machine Learning , LSTM
+Technologies Used: Deep Learning, Machine Learning, Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Keras
